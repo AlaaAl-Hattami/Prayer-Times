@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اوقات الصلاوات</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+
+    </head>
+    <body style="direction:rtl;">
+    <div style="height: 0vh;" class="continer">
+        <div style="margin: 0px;" class="pray">
+            <h1 style="color: white; padding: 30px; font-size: 40px;" > 🟢  أوقات مواعيد الصلاوات حسب <span style="color: red;">المدن</span>  في التوقيت المحلي   : 🟢</h1>
+        </div>
+    <div style="color: white;" class="cityname">
+        <h1 id="city-name">..............</h1>
+        <h6 id="date" style="font-size: 30px; color: rgb(147, 148, 148);" >السبت 20 اكتوبر </h6>
+</div>
+<hr style="margin: 0px 50px; border-color:#867b9b; font-size: 0px;">
+
+<div class="prayer">
+   <div class="card">
+   <div class="header">
+    <h1 style="">الفجر</h1>
+   </div> 
+   <div  class="body center">
+    <h1 class="tim" id="alfjir-time">
+        2:30
+    </h1>
+   </div>
+   </div> 
+   <div class="card">
+    <div class="header">
+     <h1 style="">الشروق</h1>
+    </div> 
+    <div  class="body center">
+     <h1  class="tim" id="sunrise-time">
+         2:30
+     </h1>
+    </div>
+    </div> 
+    <div class="card">
+        <div class="header">
+         <h1>الظهر</h1>
+        </div> 
+        <div class="body center">
+         <h1 class="tim" id="noon-time">
+             2:30
+         </h1>
+        </div>
+        </div> <div class="card">
+            <div class="header">
+             <h1>العصر</h1>
+            </div> 
+            <div  class="body center">
+             <h1 class="tim" id="afternoon-time">
+                 2:30
+             </h1>
+            </div>
+            </div> <div class="card">
+                <div class="header">
+                 <h1>المغرب</h1>
+                </div> 
+                <div style="" class="body center">
+                 <h1 style="" class="tim" id="morco-time">
+                    2:30
+                 </h1>
+                </div>
+                </div> 
+                <div class="card">
+                    <div class="header">
+                    <h1>العشاء</h1>
+                    </div> 
+                    <div  class="body center">
+                    <h1 class="tim" id="dinner-time">
+                        2:30
+                    </h1>
+                    </div>
+                    </div> 
+                </div>
+                <div class="center" style="margin-top: 130px;" >
+                    <h1  style="color: white; margin-left: 30px;">اختر اسم <span  style="color: red;">مدينتك</span> حاليا :</h1>
+
+                    <select  name="" id="cities-select" style="width: 300px; height: 35px; font-size: 25px; padding-right: 10px; padding-bottom: 5px; border-radius: 20px; font-family:'Tajawal',sans-serif; background:#1b024b; color: white;">
+
+                    </select>
+                </div>
+            </div>
+</body>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="./prayer.js"></script>
+</html>

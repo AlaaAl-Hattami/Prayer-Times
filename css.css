@@ -1,0 +1,52 @@
+body{
+    font-family: "Tajawal", sans-serif;
+    /* background: linear-gradient(45deg,#240165,#05001c); */
+    background: linear-gradient(45deg,#03000c,#3c0280, #080021);
+}
+.cityname{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#cityname{
+    color: white;
+    font-size: 100px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.prayer{
+    height: 250px;
+    margin-top: 5%;
+    margin-right: 40px;
+    display: flex;
+    /* box-shadow: 0px 1px 1px rgb(1, 22, 57); */
+    justify-content: space-around;
+}
+.card{
+    border-radius: 10px;
+    width: 10%;
+    height: 95%;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 30%);
+    background-color: aliceblue;
+    color: white;
+}
+.header{
+
+    background: linear-gradient(45deg,#5709ee,#7a37bf);
+
+    padding-right: 10px;
+}
+.header h1{
+    font-weight: 400;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+.tim{
+    font-size: 60px;
+    color: black;
+}
